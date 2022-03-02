@@ -27,7 +27,10 @@ namespace WindowsFormsApp1
         //找出本機IP
         private string MyIP()
         {
-            string hn = Dns.GetHostName();                          //取得本機電腦名稱
+            string hn = Dns.GetHostName();
+            Console.WriteLine(hn);
+            
+            //取得本機電腦名稱
             IPAddress[] ip = Dns.GetHostEntry(hn).AddressList;      //取得本機IP陣列(可能有多個)
             foreach (IPAddress it in ip)                            //列舉各個IP
             {
