@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{CDF3B0DD-6C61-4F73-9634-8470E1729E92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPcomm", "WindowsFormsApp1\UDPcomm.csproj", "{CDF3B0DD-6C61-4F73-9634-8470E1729E92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDPdraw", "..\..\..\Desktop\網際網路程式設計\myPTT\C#網路程式設計\MP32010_examples\MP32010_examples\02_UDPDaub\WindowsFormsApp1\UDPdraw.csproj", "{F65206DA-A523-4D4F-BF1F-45485CD0E698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{CDF3B0DD-6C61-4F73-9634-8470E1729E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDF3B0DD-6C61-4F73-9634-8470E1729E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDF3B0DD-6C61-4F73-9634-8470E1729E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F65206DA-A523-4D4F-BF1F-45485CD0E698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F65206DA-A523-4D4F-BF1F-45485CD0E698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F65206DA-A523-4D4F-BF1F-45485CD0E698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F65206DA-A523-4D4F-BF1F-45485CD0E698}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
